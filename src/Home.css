@@ -1,0 +1,76 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/airplane.css');
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting {
+    margin: 15rem auto 10rem 2rem;
+    text-align: center;
+
+    font-size: 4rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+.designer-text {
+    color: #428bca;
+}
+
+.developer-text {
+    color: #428bca;
+}
+
+.picture {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-pic {
+    width: 450px;
+    height: 500px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.welcome-text {
+    text-align: center;
+    margin: 10rem auto 10rem auto;
+
+    font-size: 5rem;
+    font-family: sans-serif;
+    color: #428bca;
+}
+
+.findout {
+    margin-top: -5rem;
+    margin-bottom: 10rem;
+    text-align: center;
+
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.findout-link {
+    text-decoration: none;
+    color: white;
+}
+
+.findout-link:hover {
+    color: #428bca;
+}
+
+@media (min-width: 56rem) {
+    .picture {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10rem;
+        margin-right: 5rem;
+    }
+
+    .introduction {
+        display: flex;
+        flex-direction: row;
+    }
+}

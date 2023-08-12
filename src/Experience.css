@@ -1,0 +1,59 @@
+.experience-subtitle {
+  text-align: center;
+
+  color: white;
+  font-size: 3rem;
+}
+
+.accordion {
+  margin: 1rem 0;
+  list-style: none;
+  cursor: pointer;
+}
+
+.flexcontainer {
+  display: flex;
+}
+
+.accordion-item {
+  margin-top: 16px;
+  background-color: rgba(66, 139, 202, 0.20);
+}
+
+.job-box {
+  width: 100%;
+  padding: 21px 0 21px 21px;
+}
+
+
+.company-logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 3px;
+  margin-right: 16px;
+}
+
+.company-name {
+  margin-bottom: 5px;
+  margin-top: 3px;
+
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+}
+
+.job_title {
+  margin-bottom: 0.2rem;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #b1b1b1;
+}
+
+.accordion-panel {
+  margin: 5px;
+  padding: 5px;
+}
+
+.text {
+  color: white;
+}

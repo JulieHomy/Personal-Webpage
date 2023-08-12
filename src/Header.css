@@ -1,0 +1,13 @@
+.header {
+    display: grid;
+    grid-template-areas:
+        "header-logo header-title"
+        "header-nav header-nav"
+    ;
+    grid-template-columns: auto 1fr;
+}
+
+.header__nav {
+    grid-area: header-nav;
+    padding: 1rem;
+}

@@ -1,0 +1,47 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/chevron-left.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/chevron-right.css');
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-picture {
+    width: 800px;
+    max-height: 550px;
+    max-width: 100%;
+    aspect-ratio: 800/550;
+}
+
+.picture-description {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.carousel-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.left-button {
+    background-color: black;
+    border: none;
+}
+
+.gg-chevron-left {
+    color: white;
+    padding-left: 2rem;
+}
+
+.right-button {
+    background-color: black;
+    border: none;
+}
+
+.gg-chevron-right {
+    color: white;
+}

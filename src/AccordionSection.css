@@ -1,0 +1,25 @@
+.accordion-panel {
+    padding: 10px;
+}
+
+.accordion-panel__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+
+    text-align: left;
+}
+
+.accordion-panel__title::after {
+    content: "+";
+}
+
+.accordion-panel__title--open::after {
+    content: "-";
+}
+
+.accordion-panel__content {
+    padding: 8px;
+}

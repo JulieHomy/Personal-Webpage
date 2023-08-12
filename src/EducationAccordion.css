@@ -1,0 +1,25 @@
+.accordion-section {
+    padding: 10px;
+}
+
+.accordion-section__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+
+    text-align: left;
+}
+
+.accordion-section__title::after {
+    content: "+";
+}
+
+.accordion-section__title--open::after {
+    content: "-";
+}
+
+.accordion-section__content {
+    padding: 8px;
+}

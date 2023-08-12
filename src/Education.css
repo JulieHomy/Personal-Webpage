@@ -1,0 +1,84 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 0.5rem;
+}
+
+.card {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    border: 1px solid black;
+    border-radius: 1.25rem;
+    background-color: rgba(66, 139, 202, 0.20);
+
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.subtitle {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.emblem {
+    height: 200px;
+    width: 200px;
+    align-self: center;
+}
+
+.school-name {
+    margin-top: 3rem;
+    text-align: center;
+
+    color: white;
+    font-size: 1.5rem;
+}
+
+.degree {
+    text-align: center;
+    margin-top: -1rem;
+    margin-bottom: 4rem;
+
+    color: white;
+    font-size: 1rem;
+}
+
+.card-text {
+    text-align: justify;
+    color: white;
+}
+
+
+.card-link {
+    margin-top: 0;
+    padding: 0.4rem;
+    align-self: left;
+
+    font-size: 1rem;
+    color: #428bca;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.card-link:hover {
+    color: white;
+}
+
+.accordion-text {
+    color: white;
+}
+
+
+@media (min-width: 44rem) {
+    .cards {
+        margin: 0.5rem;
+    }
+
+    .card {
+        grid-column: span 4;
+    }
+}

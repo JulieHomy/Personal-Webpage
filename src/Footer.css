@@ -1,0 +1,90 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/twitter.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/youtube.css');
+
+.footer {
+    display: grid;
+    grid-template-areas:
+        "footer__title footer__title"
+        "footer__work-list footer__work-list"
+        "footer__social-list footer__social-list"
+        "footer__privacy-term footer__privacy-term"
+    ;
+    grid-template-columns: auto 1fr;
+}
+
+.footer__title {
+    grid-area: footer__title;
+
+    margin-left: 2rem;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.footer__work-list {
+    grid-area: footer__work-list;
+
+    display: flex;
+    flex-direction: row;
+
+    padding: 0 1rem;
+    margin-left: 1rem;
+
+    list-style: none;
+}
+
+.work-list__item {
+    padding-right: 16px;
+}
+
+.work-list__link {
+    color: #428bca;
+    text-decoration: none;
+}
+
+.work-list__link:hover {
+    color: #bbe7ff;
+}
+
+.footer__social-list {
+    grid-area: footer__social-list;
+
+    display: flex;
+    flex-direction: row;
+
+    padding: 0;
+    margin-left: 1rem;
+
+    list-style: none;
+}
+
+.social-list__item {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.social-list__link {
+    color: #428bca;
+    text-decoration: none;
+}
+
+.social-list__link:hover {
+    color: #bbe7ff;
+}
+
+.gg-youtube {
+    margin-top: 0.3rem;
+}
+
+
+.footer__privacy-term {
+    grid-area: footer__privacy-term;
+
+    margin-left: 2rem;
+
+    font-size: 0.8rem;
+    color: white;
+}

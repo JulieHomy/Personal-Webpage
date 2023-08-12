@@ -1,0 +1,38 @@
+.click-text__container {
+    padding: 3rem;
+}
+
+.click-text {
+    color: white;
+    font-size: 2rem;
+    font-family: 'pacifico';
+}
+
+.click-text:hover {
+    color: #428bca;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.form-input {
+    margin-bottom: 20px;
+}
+
+.input-error {
+    color: red;
+    margin-top: -20px;
+}
+
+.close-button {
+    padding-left: 0.5rem;
+}
+
+.greeting-name {
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+}

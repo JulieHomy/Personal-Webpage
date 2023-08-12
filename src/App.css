@@ -1,0 +1,23 @@
+.app {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+    height: 100%;
+}
+
+.skip-to-content-link {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+
+    z-index: 3000;
+
+    padding: 2px 15px 2px 15px;
+
+    color: white;
+}
+
+.skip-to-content-link:focus {
+    top: 40px;
+    left: 45%;
+}
